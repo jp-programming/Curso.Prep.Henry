@@ -1,0 +1,33 @@
+html{
+    background-image: url("https://munchies-images.vice.com/wp_upload/Taco_meme_04.jpg?crop=0.7111111111111111xw:1xh;center,center&resize=1200:*");
+    background-color: greenyellow;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+h1{
+    color:rgb(46, 97, 26);
+ }
+ img{
+     width: 400px;
+ }
+ .divClass{
+    text-align: center;
+ }
+ #thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: steelblue;
+    padding: 50px;
+    border: 4px black dashed;
+ }
+ #spanId{
+    font-size: 18px;
+    margin: 50px;
+ }
