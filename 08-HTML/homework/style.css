@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+p, li{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 500;
+    font-size: 18px;
+    list-style: none;
+}
+h1, h3, h4{
+    font-family: 'Montserrat', sans-serif;
+    color: aqua;
+    background-color: black;
+    border: 1px black solid;
+}
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: aqua;
+}
+header{
+    height: 50px;
+    background-color: cadetblue;
+    border: 5px black solid;
+    padding-top: 20px;
+    margin: 0 0 50 0;
+}
+header nav{
+    width: fit-content;
+    height: 46px;
+    margin: auto;
+}
+header nav ul{
+    width: fit-content;
+    height: 42px;
+    padding: auto;
+    margin: auto;
+}
+header nav ul li{
+    width: fit-content;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px;
+    margin-inline: 10px;
+    display: inline;
+}
+section{
+    width: 1000px;
+    background-color: cadetblue;
+    border: 5px black solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+section ul{
+    width: fit-content;
+    padding-left: 0;
+    margin: auto;
+}
+section ul li{
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+#secTitulo span{
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-right: 8px;
+    padding: 5px;
+    color: white;
+}
+#secFoto{
+    width: fit-content;
+    padding: 0;
+    
+}
+#secFoto img{
+    height: 450px;
+    border-radius: 10px;
+}
